@@ -9,10 +9,10 @@
 		<string>{{path}}</string>
 	</array>
 	<key>StartCalendarInterval</key>
-    <dict>
-        <key>Second</key>
-        <integer>0</integer>
-    </dict>
+	<dict>
+		<key>Second</key>
+		<integer>0</integer>
+	</dict>
 	<key>ProcessType</key>
 	<string>Interactive</string>
 </dict>
