@@ -44,6 +44,8 @@ function update {
     if ! rm "${FILENAME_ARCHIVE}"; then
         fatal "fail to remove archived database '${FILENAME_ARCHIVE}'"
     fi
+
+    osascript -e 'display dialog "TrendVision: speed cam database has been saved"'
 }
 
 function check {
